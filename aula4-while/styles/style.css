@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria: blueviolet;
+    --corSecundaria: rgb(34,34,34);
+    --branco: #ffffff;
+}
+
+header, footer{
+    width: 100%;
+    background-color: var(--corPrimaria);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+#logo{
+    display: flex;
+    gap: 20px;
+}
+
+#logo img{
+    width: 30px;
+}
+
+#catalogo{
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.livro{
+    width: 200px;
+    padding: 5px;
+    background-color: var(--corSecundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+button {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente */
+    padding: 5px 10px; /* Reduzir o padding do botão */
+  }
+  
+  button img {
+    width: auto;
+    height: 20px;
+  }
+  
