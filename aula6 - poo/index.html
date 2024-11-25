@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Rede Social</h1>
+
+        <!-- Seletor de usuário -->
+        <div>
+            <label for="userSelect">Escolha o usuário:</label>
+            <select id="userSelect">
+                <option value="1">Willian022</option>
+                <option value="2">WillianFAKE</option>
+            </select>
+        </div>
+
+        <!-- Caixa de postagem -->
+        <div class="post-box">
+            <input type="text" id="pensamento" placeholder="Escreva algo...">
+            <button onclick="postarFeed()">Postar</button>
+        </div>
+
+        <!-- Área para mostrar as postagens -->
+        <div id="resposta"></div>
+    </div>
+
+    <script src="scripts/script2.js"></script>
+</body>
+</html>
